@@ -8,7 +8,6 @@
 
 <img align = "right" src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/xcms/xcms.png" height="200">
 
-This is a test change 3/12/22
 
 Version >= 3 of the `xcms` package are updated and partially re-written versions
 of the original `xcms` package. The version number *3* was selected to avoid

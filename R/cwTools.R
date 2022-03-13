@@ -566,7 +566,7 @@ joinOverlappingPeaks <- function(td, d, otd, omz, od, scantime, scan.range,
             ## re-calculate m/z value for peak range
             mzmean <- do.call(mzCenterFun, list(mz = mz.value,
                                                 intensity = mz.int))
-            mzrange <- range(mz.value)
+            mzrange <- range(mz.value[which(mz.value > 0)]) 
             newpeak[1, "mz"] <- mzmean
             newpeak[1, c("mzmin","mzmax")] <- mzrange
 
