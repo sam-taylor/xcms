@@ -1,4 +1,4 @@
-Package: xcmst
+Package: xcms
 Version: 3.17.3
 Title: LC-MS and GC-MS Data Analysis with Targeted Option
 Description: Framework for processing and visualization of chromatographically
