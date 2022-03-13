@@ -3,7 +3,7 @@ Version: 3.17.3
 Title: LC-MS and GC-MS Data Analysis with Targeted Option
 Description: Framework for processing and visualization of chromatographically
     separated and single-spectra mass spectral data. Imports from AIA/ANDI NetCDF,
-    mzXML, mzData and mzML files. Preprocesses data for high-throughput, (un)targeted
+    mzXML, mzData and mzML files. Preprocesses data for high-throughput, un/targeted
     analyte profiling.
 Authors@R: c(
 	   person(given = "Colin A.", family = "Smith",
@@ -31,8 +31,7 @@ Authors@R: c(
 	   role = "ctb"),
 	   person(given = "William", family = "Kumler",
 	   email = "wkumler@uw.edu", role = "ctb",
-	   comment = c(ORCID = "0000-0002-5022-8009"))
-	   )
+	   comment = c(ORCID = "0000-0002-5022-8009")),
 	   person(given = "Samuel", family = "Taylor",
 	   email = "sam3557@gmail.com", role = "ctb",
 	   comment = c(ORCID = "0000-0002-0926-9394"))
